@@ -1,0 +1,146 @@
+@import 'animate.css';
+.section__portada {
+  background-image: url('../../assets/fondoPortada.png');
+  background-repeat: repeat;
+  .container__portada {
+    span {
+      color: $yellow;
+    }
+    .tag__text {
+      color: rgb(155, 155, 155);
+    }
+    p {
+      font-size: calc(3rem - 1vw);
+    }
+    h1 {
+      color: white;
+      font-size: calc(5rem - 0.8vw);
+    }
+    .container__link {
+      margin-top: 30px;
+    }
+    .link__contact {
+      background-color: $yellow;
+      color: $main-color-white-mode;
+      padding: 15px;
+      border-radius: 10px;
+      font-size: 20px;
+    }
+    .scroll-down{
+      position: absolute;
+      bottom: 30px;
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      animation-name: bounce;
+      animation-duration: 1s ;
+      animation-iteration-count: 5;
+
+      img{
+        width: 50px;
+        filter: invert(1);
+
+      }
+    }
+    @media (min-width: 1200px) {
+      .box {
+        position: absolute;
+        border: 2px solid $yellow;
+        transform-style: preserve-3d;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        transition: all 1s linear;
+      }
+      .cuadrado {
+        width: 180px;
+        height: 180px;
+        top: 60px;
+        right: 110px;
+        animation-name: girar;
+        animation-duration: 30s;
+      }
+      .cuadradito {
+        top: 90px;
+        right: 140px;
+        width: 120px;
+        height: 120px;
+        animation-name: rotarY;
+        animation-duration: 15s;
+      }
+      .cuadradito2 {
+        width: 70px;
+        height: 70px;
+        top: 115px;
+        right: 165px;
+        animation-name: rotarX;
+        animation-duration: 15s;
+      }
+      .cuadrado:hover,
+      .cuadradito:hover {
+        border: 2px solid #da4545;
+      }
+      .cuadrado:hover ~ .cuadradito2 {
+        border: 2px solid #da4545;
+      }
+      .cuadradito2:hover {
+        background-color: $yellow;
+      }
+    }
+
+    @media (max-width: 1199.98px) {
+      h1 {
+        font-size: calc(4.5rem - 1vw);
+      }
+      p {
+        font-size: calc((2.3rem - 1vw));
+      }
+      .scroll-down{
+        display: none;
+      }
+    }
+    @media (max-width: 991.98px) {
+      h1 {
+        font-size: calc(3.5rem - 1vw);
+      }
+      p {
+        font-size: calc((1.8rem - 1vw));
+      }
+    }
+    @media (max-width: 767.98px) {
+      width: 500px;
+      h1 {
+        font-size: calc(3rem - 1vw);
+      }
+    }
+    @media (max-width: 575.98px) {
+      width: 300px;
+    }
+  }
+}
+
+@keyframes girar {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotarY {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(-360deg);
+  }
+}
+
+@keyframes rotarX {
+  from {
+    transform: rotateX(0deg);
+  }
+  to {
+    transform: rotateX(-360deg);
+  }
+}

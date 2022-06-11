@@ -1,0 +1,102 @@
+@import "animate.css";
+
+.section__skills {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  .container__cards-skills {
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+    justify-content: center;
+  }
+  .container__current-learning {
+    width: 500px;
+    img {
+      width: 100%;
+    }
+  }
+  h3 {
+    color: rgb(146, 146, 146);
+  }
+  .card__skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+  @media (min-width: 1200px) {
+    margin-left: 210px;
+    height: 60vh;
+  }
+  @media (max-width: 991.98px) {
+    .container__cards-skills {
+      max-width: 600px;
+    }
+    .container__svg-skill {
+      width: 80px;
+    }
+  }
+  @media (max-width: 767.98px) {
+    .container__cards-skills {
+      max-width: 400px;
+    }
+    .container__svg-skill {
+      width: 60px;
+    }
+  }
+  @media (max-width: 575.98px) {
+    .container__cards-skills {
+      max-width: 260px;
+    }
+  }
+}
+
+.section__skills-100 {
+  min-height: 100vh;
+}
+
+.card__skill:hover {
+  h3 {
+    color: $yellow;
+  }
+}
+
+.container__svg-skill {
+  width: 80px;
+  svg {
+    padding: 10px;
+    width: 100%;
+    fill: rgb(146, 146, 146);
+  }
+  svg:hover {
+    fill: $yellow;
+    animation-name: jello;
+    animation-duration: 1s;
+  }
+}
+
+.shining-dot {
+  fill: #ffff00;
+}
+
+.st3 {
+  fill: $yellow;
+}
+
+.st1 {
+  fill: rgb(197, 194, 27);
+}
+
+.st0 {
+  fill: none;
+  stroke: #504f4f;
+  stroke-width: 0.5;
+  stroke-miterlimit: 10;
+}
+
+.st2 {
+  stroke-width: 0.5;
+  stroke: #b7b7b7;
+  stroke-miterlimit: 10;
+}
