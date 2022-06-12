@@ -20,7 +20,6 @@ export const Projects = () => {
                         urlProject={project.link}
                         urlRepo={project.repository}
                         img={project.img_dark_theme}
-                        preview={project.preview}
                         alt={project.alt}
                         title={project.title} />
                 ))}

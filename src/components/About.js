@@ -19,7 +19,9 @@ export const About = () => {
                     <img src={profilePicture} alt="my profile"></img>
                 </div>
                 <div className="container__aboutme-text">
-                    <p>Estudiante de Décimo semestre de la Carrera de Informática en la Universidad Mayor de San Andrés, a la que le encanta crear aplicaciones web bonitas y funcionales, apasionada por el desarrollo Web Frontend.</p>
+                    <p>
+                    Estudiante de décimo semestre de la Carrera de Informática en la Universidad Mayor de San Andrés, a la que le encanta crear aplicaciones web bonitas y funcionales, apasionada por el desarrollo web frontend, buscando formar parte  de un equipo para crear productos que cambiarán al mundo y construir tecnología de software para lograrlo, al mismo tiempo, permita desarrollar mis competencias profesionales.
+                      </p>
                 </div>
                 
             </div>

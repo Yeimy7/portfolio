@@ -1,7 +1,7 @@
 import React from 'react'
 import { LinksProjects } from './LinksProjects';
 
-export const ProjectCard = ({ img, title, alt, data_aos, duration_aos, urlProject, urlRepo, preview }) => {
+export const ProjectCard = ({ img, title, alt, data_aos, duration_aos, urlProject, urlRepo}) => {
     return (<article
         className="container__card-project"
         data-aos={data_aos}
@@ -15,7 +15,7 @@ export const ProjectCard = ({ img, title, alt, data_aos, duration_aos, urlProjec
                 <h3 className="card__project-title">{title}</h3>
             </div>
 
-            <div className="card__project-back" style={{ backgroundImage: `url(${preview})` }}>
+            <div className="card__project-back">
                 <div className="container__links">
                     <LinksProjects
                         text="Demo"

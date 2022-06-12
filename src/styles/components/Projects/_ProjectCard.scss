@@ -46,9 +46,14 @@
         display: flex;
         justify-content: center;
         width: 180px;
+        height: 150px;
         transform: translateZ(40px);
         img {
           width: 100%;
+          filter: sepia(1) hue-rotate(15deg);
+        }
+        img:hover{
+          filter: none;
         }
       }
     }

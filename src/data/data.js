@@ -1,36 +1,59 @@
-import meme from '../assets/meme.png';
-import previewMatch from '../assets/previewMatch.png';
-import previewFirstPortfolio from '../assets/previewFirstPortfolio.png'
+import country from '../assets/country.jpg';
+import pharmacy from '../assets/pharmacy.png';
+import pokemon from '../assets/pokemon.png';
+import space from '../assets/space.jpg';
+import gallery from '../assets/gallery.jpg';
+import book from '../assets/book.png'
 
 export const projectDetails = [
+
     {
-        id: "1_first_portfolio",
-        img_dark_theme: "https://blogger.googleusercontent.com/img/a/AVvXsEjiy93dYLcllgGSHXnsr_4WMOkjBfz9fP8octsENo1KW7A3l1ejF7Im-Ns8wJRM-l44nG7X6DBC0INPaanNjvAoOoB85DVEURnoKBNu40BZtYZCUr0izz7k785Sw6vehAJtB7LTdG8peKDhEjcEeqZ-eoXOQPpNhpopo9VNJABWrE-VigtYZsMXFiCYLw=s320",
-        link: "https://celinesco.github.io/Portafolio/",
-        technologies: "HTML5, CSS3, JS",
-        repository: "https://github.com/Celinesco/Portafolio",
-        preview: previewFirstPortfolio,
-        title: 'Primer Porfolio',
-        alt: "código html mal escrito a propósito",
+        id: "1_where_in_the_world",
+        img_dark_theme: country,
+        link: "https://yeimy7.github.io/QuizApp/rest-countries-api/",
+        repository: "https://github.com/Yeimy7/rest-countries-api",
+        title: '¿En qué parte del mundo?',
+        alt: "A frontend-mentor challenge: Rest countries api",
         
     },
     {
-        id: "2_Meme_Genertor",
-        img_dark_theme: meme,
-        link: "https://carosanchezl.github.io/Editor-de-memes/",
-        technologies: "HTML5, CSS3, JS",
-        repository: "https://github.com/CaroSanchezL/Editor-de-memes",
-        title: 'Generador de Memes',
-        alt: "Meme de mi gato",
+        id: "2_pokemon",
+        img_dark_theme: pokemon,
+        link: "https://yeimy7.github.io/guess-pokemon-challenge/",
+        repository: "https://github.com/Yeimy7/guess-pokemon-challenge",
+        title: 'Adivina el Pokemon',
+        alt: "A @Goncy challenge",
     },
     {
-        id: "3_matcheadas",
-        img_dark_theme: "https://blogger.googleusercontent.com/img/a/AVvXsEiq822jcy76XX9xUD5vVqneksee2EbKYJ1zGJ8fH1bhaqT9yRTFh_Q97QaghXcUD5TzbIe4_2yX7Nd7VbIgjmbzAX18bV_Rg5OU7TuA8hyqt74yPyEP-h1pEbFtpUtF7SzRKKijQCplPKwIcRbU0aW6Du154r10i1SaimyE16a7yIW1Xz0lBTPdSuShzQ=w323-h399",
-        link: "https://celinesco.github.io/MatcheADAs/",
-        technologies: "HTML5, CSS3, JS",
-        repository: "https://github.com/Celinesco/MatcheADAs",
-        preview: previewMatch,
-        title: 'MatcheADAs',
-        alt: "Juego tateti o tres en línea",
+        id: "3_pharmacy",
+        img_dark_theme: pharmacy,
+        link: "https://app-pharmacy-php.000webhostapp.com/",
+        repository: "https://github.com/CaroSanchezL/Editor-de-memes",
+        title: 'Sistema web para farmacia',
+        alt: "Inventory and sales management system for a pharmacy",
+    },
+    {
+        id: "4_space",
+        img_dark_theme: space,
+        link: "https://yeimy7.github.io/Frontend-Mentor-Challenges/space-tourism-website-main/",
+        repository: "https://github.com/Yeimy7/Frontend-Mentor-Challenges/tree/master/space-tourism-website-main",
+        title: 'Space',
+        alt: "A frontend-mentor challenge: Space tourism",
+    },
+    {
+        id: "5_gallery",
+        img_dark_theme: gallery,
+        link: "https://yeimy7.github.io/galleria_slideshow/",
+        repository: "https://github.com/Yeimy7/galleria_slideshow",
+        title: 'Galeria',
+        alt: "A frontend-mentor challenge: gallery slideshow",
+    },
+    {
+        id: "6_book_finder",
+        img_dark_theme: book,
+        link: "https://yeimy7.github.io/bookFinder/",
+        repository: "https://github.com/Yeimy7/bookFinder",
+        title: 'Busca libros',
+        alt: "A book finder ",
     },
 ]
