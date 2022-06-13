@@ -10,7 +10,7 @@ export const projectDetails = [
     {
         id: "1_where_in_the_world",
         img_dark_theme: country,
-        link: "https://yeimy7.github.io/QuizApp/rest-countries-api/",
+        link: "https://yeimy7.github.io/rest-countries-api/",
         repository: "https://github.com/Yeimy7/rest-countries-api",
         title: '¿En qué parte del mundo?',
         alt: "A frontend-mentor challenge: Rest countries api",
