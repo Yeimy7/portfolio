@@ -27,8 +27,8 @@ export const projectDetails = [
     {
         id: "3_pharmacy",
         img_dark_theme: pharmacy,
-        link: "https://app-pharmacy-php.000webhostapp.com/",
-        repository: "https://github.com/CaroSanchezL/Editor-de-memes",
+        link: "https://vimeo.com/738472003",
+        repository: "https://github.com/Yeimy7/Farmacia",
         title: 'Sistema web para farmacia',
         alt: "Inventory and sales management system for a pharmacy",
     },
